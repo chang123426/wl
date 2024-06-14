@@ -1,0 +1,42 @@
+.current {
+  background-color: #d0d0d0;
+}
+.cultural-experiences {
+  background-color: #fff; /* 白色背景 */
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
+.cultural-experiences h2 {
+  color: #003366; /* 标题颜色 */
+  margin-bottom: 15px;
+}
+.experience {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f9f9f9; /* 稍浅背景色 */
+  border: 1px solid #ddd; /* 边框颜色 */
+}
+.experience img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc; /* 图片边框颜色 */
+  padding: 3px;
+  background-color: #fff; /* 图片背景色 */
+}
+.experience h3 {
+  color: #003366; /* 活动标题颜色 */
+  margin-bottom: 5px;
+}
+.experience p {
+  margin-bottom: 5px;
+}
+.experience a {
+  color: #003366; /* 链接颜色 */
+  text-decoration: none; /* 去除下划线 */
+  border-bottom: 1px solid #003366; /* 链接下边框颜色 */
+}
+.experience a:hover {
+  color: #ff6347; /* 鼠标悬停颜色 */
+  border-bottom-color: #ff6347; /* 鼠标悬停下边框颜色 */
+}

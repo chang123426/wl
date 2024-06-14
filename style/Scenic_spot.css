@@ -1,0 +1,45 @@
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+.current {
+  background-color: #d0d0d0;
+}
+.tourist-spots {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.tourist-spots h2 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+.spot {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+.spot img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 3px;
+  background-color: #fff;
+}
+.spot h3 {
+  color: #003366;
+  margin-bottom: 5px;
+}
+.spot p {
+  margin-bottom: 5px;
+}
+.spot a {
+  color: #003366;
+  border-bottom: 1px solid #003366;
+}
+.spot a:hover {
+  color: #ff6347;
+  border-bottom-color: #ff6347;
+}

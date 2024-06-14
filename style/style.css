@@ -1,0 +1,122 @@
+html {
+  background-color: #f5f3ee;
+}
+/* 选中状态 */
+.current {
+  background-color: #d0d0d0;
+}
+/* 主体 */
+main {
+  line-height: 1.5;
+}
+
+main h2 {
+  color: #1a366e;
+  padding-top: 35px;
+  padding-bottom: 5px;
+}
+
+main p {
+  margin-bottom: 20px;
+  color: #666666;
+}
+
+/* 轮播图 */
+
+.slider {
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.slider-wrapper img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.slider-wrapper button {
+  width: 28px;
+  height: 40px;
+  background: rgba(27, 156, 202, 0.5);
+  color: #fff;
+  border-radius: 0px 10px 10px 0;
+  cursor: pointer;
+}
+
+.slider-wrapper .prev {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.slider-wrapper .next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.slider-indicator {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.slider-indicator li {
+  width: 8px;
+  height: 8px;
+  margin: 4px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.slider-indicator li.active {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+}
+/* 核心内容 */
+.core {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.content {
+  display: flex;
+  background-color: #e9f2fb;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.arean {
+  flex: 1;
+  color: #333;
+  margin-right: 20px;
+}
+.arean:last-child {
+  margin-right: 0;
+}
+.arean h2 {
+  font-size: 20px;
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.arean p {
+  color: #666666;
+  line-height: 1.6;
+}
